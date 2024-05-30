@@ -1,0 +1,27 @@
+.game-end-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.game-end-wrapper__title {
+  color: var(--dark);
+  font-size: 40px;
+  margin: 0;
+}
+
+.game-end-wrapper__text {
+  color: var(--dark);
+  font-size: 24px;
+  margin: 11px 0 0 0;
+}
+
+.game-end-wrapper button {
+  margin-top: 50px;
+}
+
+.game-end-wrapper--dark .game-end-wrapper__title,
+.game-end-wrapper--dark .game-end-wrapper__text {
+  color: var(--light);
+}

@@ -1,0 +1,24 @@
+.page-wrapper {
+  position: relative;
+  padding: 5% 15%;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: auto;
+}
+
+.page-wrapper__content {
+  height: 100%;
+}
+
+.page-wrapper__cat-background {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  cursor: pointer;
+}
+
+.page-wrapper__navigation-bar {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}

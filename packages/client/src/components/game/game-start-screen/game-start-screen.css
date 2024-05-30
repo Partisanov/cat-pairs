@@ -1,0 +1,26 @@
+.game-start-screen__select {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.game-start-screen__button {
+  width: 100%;
+  background-color: var(--dark);
+  color: var(--light);
+  font-size: 22px;
+  padding-top: 2px;
+  margin: 10px 0;
+}
+
+.game-start-screen .ant-btn.game-start-screen__button:hover {
+  background-color: var(--dark);
+  color: var(--light);
+  opacity: 0.8;
+}
+.dark-dropdown {
+  background: var(--light);
+}
+.dark-dropdown [aria-selected] {
+  background: var(--light);
+  color: var(--dark);
+}
