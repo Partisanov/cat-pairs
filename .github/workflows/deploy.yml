@@ -24,13 +24,13 @@ jobs:
 
       - name: Build and push client Docker image
         run: |
-          docker build -t your_dockerhub_username/practicum-client:latest -f Dockerfile.client .
-          docker push your_dockerhub_username/practicum-client:latest
+          docker build -t kpartisanov/practicum-client:latest -f Dockerfile.client .
+          docker push kpartisanov/practicum-client:latest
 
       - name: Build and push server Docker image
         run: |
-          docker build -t your_dockerhub_username/practicum-server:latest -f Dockerfile.server .
-          docker push your_dockerhub_username/practicum-server:latest
+          docker build -t kpartisanov/practicum-server:latest -f Dockerfile.server .
+          docker push kpartisanov/practicum-server:latest
 
       - name: Deploy to Yandex Cloud
         env:
